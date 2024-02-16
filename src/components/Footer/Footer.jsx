@@ -12,7 +12,7 @@ const Footer = () => {
         <footer className="footer p-10 bg-base-200 text-base-content">
             <aside>
                 <img className="w-36" src={logo} alt="" />
-                <p className="text-base text-gray-700 font-bold">Qube Consultant BD.<br />Providing reliable services since 1992</p>
+                <p className="text-base text-gray-700 font-bold">Qube Consultant BD. <br /> Qube Associates.<br />Providing reliable services since 1992</p>
             </aside>
             <nav>
                 <h6 className="footer-title">Services</h6>
@@ -30,8 +30,8 @@ const Footer = () => {
             </nav>
             <nav>
                 <h6 className="footer-title">Office Address</h6>
-                <p className="link link-hover">House #23, Road #05, Apt #1B (1st Floor) <br /> Nikunjo #02, Khilkhet, Uttora, Dhaka-1229 </p>
-                <p className="font-bold">Cell no: +8801713063260</p>
+                <Link to={"/contactUs"} className="link link-hover">House #23, Road #05, Apt #1B (1st Floor) <br /> Nikunjo #02, Khilkhet, Uttora, Dhaka-1229 </Link>
+                <p className="font-bold">Cell no: +8801713063260  ,  +8801778470014</p>
                 <p className="font-bold">Email: threequbeconsultantltd@hotmail.com</p>
 
                 <div className="flex gap-4">

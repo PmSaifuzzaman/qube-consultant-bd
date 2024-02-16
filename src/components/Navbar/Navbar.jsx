@@ -11,7 +11,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-transparent">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -56,7 +56,7 @@ const Navbar = () => {
                 <Link><img className="h-24" src={logo} alt="" /></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="flex gap-5">
+                <ul className="flex gap-5 font-bold text-xl">
                     <li>
                         <NavLink to="/"
                             className={({ isActive, isPending }) =>
