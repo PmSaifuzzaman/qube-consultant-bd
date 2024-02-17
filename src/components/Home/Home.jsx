@@ -1,4 +1,5 @@
 import Banner from "../Banner/Banner";
+import ChooseUs from "../ChooseUs/ChooseUs";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import SuccessCounter from "../SuccessCounter/SuccessCounter";
@@ -11,6 +12,7 @@ const Home = () => {
             <Navbar></Navbar>
             <Banner></Banner>
             <SuccessCounter></SuccessCounter>
+            <ChooseUs></ChooseUs>
             <Footer></Footer>
         </div>
     );

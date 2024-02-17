@@ -29,7 +29,7 @@ const SuccessCounter = () => {
                 <div className="text-center space-y-2 py-10">
                     <HiOutlineEmojiHappy className="mx-auto text-6xl text-cyan-600 bg-cyan-200 p-3 rounded-full" />
                     <h2 className="text-3xl font-bold">2000+</h2>
-                    <p className="text-xl font-bold">Happy Clints</p>
+                    <p className="text-xl font-bold">Happy Clients</p>
                 </div>
             </div>
         </>
