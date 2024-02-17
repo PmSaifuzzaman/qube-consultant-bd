@@ -6,9 +6,9 @@ const AboutUs = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="hero ">
+            <div className="hero pt-24">
                 <div className="hero-content flex-col lg:flex-col">
-                    <img src={img1} className=" rounded-lg" />
+                    <img src={img1}  />
                     <div>
                         <h1 className="text-5xl font-bold text-center">About Us</h1>
                         <p className="py-6">Qube consultant bd. and his sister concern Qube Associates. is responsible  for Interior & Exterior design,

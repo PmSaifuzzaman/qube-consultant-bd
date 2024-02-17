@@ -30,7 +30,7 @@ const Footer = () => {
             </nav>
             <nav>
                 <h6 className="footer-title">Office Address</h6>
-                <Link to={"/contactUs"} className="link link-hover">House #23, Road #05, Apt #1B (1st Floor) <br /> Nikunjo #02, Khilkhet, Uttora, Dhaka-1229 </Link>
+                <Link to={"/contactUs"} className="link link-hover">House #23, Road #05, Apt #1B (1st Floor) <br /> Nikunjo #02, Khilkhet, Uttara, Dhaka-1229 </Link>
                 <p className="font-bold">Cell no: +8801713063260  ,  +8801778470014</p>
                 <p className="font-bold">Email: threequbeconsultantltd@hotmail.com</p>
 

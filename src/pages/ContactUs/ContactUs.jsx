@@ -9,7 +9,7 @@ const ContactUs = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="hero  ">
+            <div className="hero pt-24">
                 <div className="hero-content flex-col lg:flex-row lg:gap-36">
                     <img src={img1} className="max-w-sm  " />
                     <div>

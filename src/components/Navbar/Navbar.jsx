@@ -11,7 +11,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="navbar bg-transparent">
+        <div className="navbar fixed z-10 bg-opacity-30 max-w-screen-xl bg-black text-white">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -93,7 +93,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href={facebookUrl} target="_blank" rel="noopener noreferrer" className="hover:text-red-600 text-cyan-600 cursor-pointer">
+                <a href={facebookUrl} target="_blank" rel="noopener noreferrer" className="hover:text-red-600 text-blue-600 cursor-pointer">
                     <FaFacebook className="text-5xl " />
                 </a>
             </div>
