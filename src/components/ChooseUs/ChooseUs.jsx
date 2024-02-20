@@ -8,13 +8,13 @@ import handover from "../../assets/icon/handover.png"
 const ChooseUs = () => {
     return (
         <>
-            <div className="text-center">
+            <div className="text-center mt-10">
                 <h2 className="text-4xl font-bold py-2">Why Choose Qube Consultant BD.</h2>
                 <p>Because our most important issue is YOU! We are focused on your taste, lifestyle, and your budget.
                     <br /> We ensure exclusive design, quality materials & great service.</p>
             </div>
 
-            <div className="card-container mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="card-container mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10 px-5">
                 <div className="card bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img src={badge} alt="Shoes" className="w-20" />
