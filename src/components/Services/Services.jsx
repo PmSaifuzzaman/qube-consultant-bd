@@ -2,6 +2,7 @@ import interior from "../../assets/Services/interior.png"
 import building from "../../assets/Services/building.jpg"
 import flat from "../../assets/Services/flat.jpg"
 import civil from "../../assets/Services/civil-contractor.jpg"
+import { Link } from "react-router-dom";
 
 const Services = () => {
     return (
@@ -16,15 +17,18 @@ const Services = () => {
                     <h2 className="text-xl font-bold pt-3">Interior</h2>
                 </div>
                 <div >
-                    <img src={building} alt="" className="h-56"/>
-                    <h2 className="text-xl font-bold pt-3">Building Design & Development</h2>
+                    <Link to={"/building"}>
+                        <img src={building} alt="" className="h-56" />
+                        <h2 className="text-xl font-bold pt-3">Building Design & Development</h2>
+                    </Link>
+
                 </div>
                 <div >
-                    <img src={flat} alt="" className="h-56"/>
+                    <img src={flat} alt="" className="h-56" />
                     <h2 className="text-xl font-bold pt-3">Flat buy-sell</h2>
                 </div>
                 <div >
-                    <img src={civil} alt="" className="h-56"/>
+                    <img src={civil} alt="" className="h-56" />
                     <h2 className="text-xl font-bold pt-3">Civil Contractor</h2>
                 </div>
             </div>
