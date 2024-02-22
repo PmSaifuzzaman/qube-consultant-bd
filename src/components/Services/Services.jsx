@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Services = () => {
     return (
-        <div>
+        <div id="services-section">
             <div className="text-center pb-10">
                 <h2 className="text-4xl font-bold py-2">Services</h2>
                 <p>Here we have our best featured services. Along with this we also offer different services which makes our lifestyle living worth.</p>
@@ -25,12 +25,16 @@ const Services = () => {
                     </Link>
                 </div>
                 <div >
-                    <img src={flat} alt="" className="h-56" />
-                    <h2 className="text-xl font-bold pt-3">Flat buy-sell</h2>
+                    <Link to={"/flat"}>
+                        <img src={flat} alt="" className="h-56" />
+                        <h2 className="text-xl font-bold pt-3">Flat buy-sell</h2>
+                    </Link>
                 </div>
                 <div >
-                    <img src={civil} alt="" className="h-56" />
-                    <h2 className="text-xl font-bold pt-3">Civil Contractor</h2>
+                    <Link to={"/civil"}>
+                        <img src={civil} alt="" className="h-56" />
+                        <h2 className="text-xl font-bold pt-3">Civil Contractor</h2>
+                    </Link>
                 </div>
             </div>
         </div>

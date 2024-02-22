@@ -3,9 +3,10 @@ import MainLayout from "../layouts/MainLayout";
 import Home from "../components/Home/Home";
 import AboutUs from "../pages/AboutUs/AboutUs";
 import ContactUs from "../pages/ContactUs/ContactUs";
-import Services from "../components/Services/Services";
 import Building from "../pages/Building/Building";
 import Interior from "../pages/Interior/Interior";
+import Flat from "../pages/Flat/Flat";
+import Civil from "../pages/Civil/Civil";
 
 
 
@@ -28,8 +29,8 @@ const router = createBrowserRouter([
                 element: <ContactUs/>
             },
             {
-                path: "/services",
-                element: <Services></Services>
+                path: "/flat",
+                element: <Flat></Flat>
             },
             {
                 path: "/building",
@@ -38,7 +39,12 @@ const router = createBrowserRouter([
             {
                 path: "/interior",
                 element: <Interior></Interior>
-            }
+            },
+            
+            {
+                path: "/civil",
+                element: <Civil></Civil>
+            },
             
         ],
     },

@@ -10,6 +10,16 @@ const Navbar = () => {
 
 
 
+    const handleServicesClick = () => {
+        const servicesSection = document.getElementById("services-section");
+
+        if (servicesSection) {
+            servicesSection.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
+
+
     return (
         <div className="navbar fixed z-10 bg-opacity-30 max-w-screen-xl bg-black text-white">
             <div className="navbar-start">
@@ -43,12 +53,12 @@ const Navbar = () => {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/services"}
+                            <Link onClick={handleServicesClick}
                                 className={({ isActive, isPending }) =>
                                     isPending ? "pending" : isActive ? "text-red-400 underline font-medium" : ""
                                 }>
                                 Services
-                            </NavLink>
+                            </Link>
                         </li>
 
                     </ul>
@@ -82,12 +92,12 @@ const Navbar = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to={"/services"}
+                        <Link  onClick={handleServicesClick}
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "text-red-400 underline font-medium" : ""
                             }>
                             Services
-                        </NavLink>
+                        </Link>
                     </li>
 
                 </ul>
