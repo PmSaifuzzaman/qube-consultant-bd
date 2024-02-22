@@ -1,12 +1,13 @@
 import Navbar from "../../components/Navbar/Navbar";
 import img1 from "../../assets/images/aboutUs.jpg"
+import Footer from "../../components/Footer/Footer";
 
 
 const AboutUs = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="hero pt-24">
+            <div className="hero pt-24 pb-5">
                 <div className="hero-content flex-col lg:flex-col">
                     <img src={img1}  />
                     <div>
@@ -75,6 +76,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };
