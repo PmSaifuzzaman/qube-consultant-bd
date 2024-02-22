@@ -7,6 +7,7 @@ import Building from "../pages/Building/Building";
 import Interior from "../pages/Interior/Interior";
 import Flat from "../pages/Flat/Flat";
 import Civil from "../pages/Civil/Civil";
+import Errorpage from "../pages/ErrorPage/Errorpage";
 
 
 
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: <MainLayout />,
-        //   errorElement: <ErrorPage />,
+          errorElement: <Errorpage />,
         children: [
             {
                 path: "/",
