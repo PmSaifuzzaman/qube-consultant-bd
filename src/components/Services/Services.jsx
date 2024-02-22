@@ -13,15 +13,16 @@ const Services = () => {
             </div>
             <div className="card-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 px-5">
                 <div >
-                    <img src={interior} alt="" className="h-56" />
-                    <h2 className="text-xl font-bold pt-3">Interior</h2>
+                    <Link to={"/interior"}>
+                        <img src={interior} alt="" className="h-56" />
+                        <h2 className="text-xl font-bold pt-3">Interior</h2>
+                    </Link>
                 </div>
                 <div >
                     <Link to={"/building"}>
                         <img src={building} alt="" className="h-56" />
                         <h2 className="text-xl font-bold pt-3">Building Design & Development</h2>
                     </Link>
-
                 </div>
                 <div >
                     <img src={flat} alt="" className="h-56" />
